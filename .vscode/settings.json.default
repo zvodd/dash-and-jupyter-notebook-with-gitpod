@@ -1,0 +1,4 @@
+{
+    "python.autoComplete.extraPaths": ["/workspace/.pip-modules/lib/python3.8/site-packages","/home/gitpod/.pyenv/versions/3.8.3/lib/python3.8/site-packages"],
+    "python.pythonPath": "python3"
+}
