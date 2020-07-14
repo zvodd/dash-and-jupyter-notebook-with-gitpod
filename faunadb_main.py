@@ -12,6 +12,6 @@ cfg = AutoMunch(dotenv_values())
 
 fdb = FaunaClient(secret=cfg.FAUNASECRET)
 
-if __name__ == "__MAIN__":
+if __name__ == "__main__":
     indexes = fdb.query(q.paginate(q.collections()))
     pprint(indexes)
